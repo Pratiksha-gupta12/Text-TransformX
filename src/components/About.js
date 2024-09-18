@@ -47,7 +47,7 @@ export default function About() {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Text Counter
+              Text TransformX
             </button>
           </h2>
           <div
@@ -56,14 +56,7 @@ export default function About() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classNamees that we use to style each element. These classNamees control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong>Text TransformX</strong>  is a versatile web tool designed to enhance text manipulation tasks. It allows users to quickly count the number of words and characters in any given text. Additionally, it offers features for converting text to uppercase or lowercase, making formatting easier. The tool also simplifies text cleanup by removing any extra spaces, providing a neat and well-formatted output. This makes Text TransformX a handy solution for both everyday users and professionals needing quick text transformations.
             </div>
           </div>
         </div>
@@ -77,7 +70,7 @@ export default function About() {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              CEO  & Founders
+              How the tool works
             </button>
           </h2>
           <div
@@ -86,14 +79,7 @@ export default function About() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classNamees that we use to style each element. These classNamees control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong>How to Use Text TransformX:</strong>Simply paste or type your text into the input box provided. Once the text is entered, you can select from various functions depending on your needs. Choose to either count the words or characters, convert the text to uppercase or lowercase, or remove any unnecessary spaces. Each function is activated by clicking the corresponding button, and the results are displayed instantly, offering a fast and efficient way to manipulate your text.
             </div>
           </div>
         </div>
@@ -107,7 +93,7 @@ export default function About() {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Our Team
+              About the Creator
             </button>
           </h2>
           <div
@@ -116,14 +102,7 @@ export default function About() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classNamees that we use to style each element. These classNamees control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong><i>Pratiksha Gupta</i></strong> 
             </div>
           </div>
         </div>
