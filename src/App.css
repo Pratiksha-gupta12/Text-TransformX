@@ -39,3 +39,46 @@
 .blank{
   color: rgb(38, 32, 215);
 }
+.box{
+  margin: 10px;
+  box-sizing: content-box;
+  display: flex;
+  width:auto;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  color:rgb(5, 4, 5);
+  background-color: rgb(222, 186, 142,0.24);
+}
+body{
+  background: #e3eae3;
+  z-index: 3;
+}
+
+/* .accordion{
+  border: 2px solid black;
+  border-radius: 5px;
+  color:rgb(5, 4, 5);
+  background-color: rgb(222, 186, 142,0.24);
+} */
+#accordionExample{
+  border: 2px solid black;
+  border-radius: 5px;
+  color:rgb(5, 4, 5);
+  background-color: rgba(227, 198, 162, 0.911);
+}
+#accordionExample .accordion-item{
+  background-color: rgb(222, 186, 142,0.24);
+}
+
+footer{
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  z-index: 5;
+  
+  position: sticky;
+}
